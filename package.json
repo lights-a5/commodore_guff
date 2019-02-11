@@ -1,0 +1,16 @@
+{
+  "name": "commodore_guff",
+  "version": "1.0.0",
+  "description": "ChatBot",
+  "main": "index.js",
+  "dependencies": {
+    "facebook-chat-api": "^1.6.1",
+    "scryfall-sdk": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Willden",
+  "license": "ISC"
+}
