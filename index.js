@@ -19,5 +19,10 @@ login({"email": process.env.CG_USERNAME, "password": process.env.CG_PASSWORD}, (
                 result => api.sendMessage(result.name + " | " + result.usd, message.threadID)
             )
         }
+
+        else if (message.body.match("bees?")) {
+            api.sendMessage("bees?", message.threadID)
+
+        }
     });
 });
