@@ -20,7 +20,7 @@ login({"email": process.env.CG_USERNAME, "password": process.env.CG_PASSWORD}, (
             )
         }
 
-        else if (message.body.match("[Bb]ees\?")) {
+        else if (message.body.match("[Bb]ees\\?")) {
             api.sendMessage("bees?", message.threadID)
 
         }
